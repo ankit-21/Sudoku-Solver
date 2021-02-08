@@ -10,4 +10,4 @@ Sudoku is a very famous game that invlolves placing numbers from 1-9 in a 3x3 gr
 #### Rule #2: All the rows sould have unique numbers (1-9)
 #### Rule #3: The 3x3 boxes in the grid sould have unique numbers (1-9)
 
-Based on these rules I have written a code based on backtracking algorithm that checks for each number assignment whether it is a valid entry based on all the three rules mentioned above. If at any point any one of the rules are not followed for an assigned box, the algorithm goes back to deleting the assigned values until all the rules are followed for that box.  
+Based on these rules I have written a code based on backtracking algorithm that checks for each number assignment whether it is a valid entry based on all the three rules mentioned above. If at any point any one of the rules is not followed for an assigned box, the algorithm goes back to deleting the assigned values until all the rules are followed for that box.  
